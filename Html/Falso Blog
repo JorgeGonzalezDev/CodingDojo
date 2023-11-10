@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Falso Blog</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+    <h1>Jorge Gonzalez Rojas</h1>
+    <img src="https://cdn.theatlantic.com/media/mt/science/cat_caviar.jpg" alt="html tutorial"> 
+    <br><br>
+    <div>  
+    <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+    </div>
+
+    <style type="text/css">
+        .tg  {border-collapse:collapse;border-spacing:0;}
+        .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+        overflow:hidden;padding:3px 10px;word-break:normal;}
+        .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+        font-weight:normal;overflow:hidden;padding:3px 10px;word-break:normal;}
+        .tg .tg-f7v4{background-color:#c0c0c0;border-color:#000000;text-align:left;vertical-align:top}
+        .tg .tg-zefg{background-color:#c0c0c0;border-color:#000000;color:#000000;text-align:left;vertical-align:top}
+        .tg .tg-73oq{border-color:#000000;text-align:left;vertical-align:top}
+    </style>
+        <table class="tg">
+        <thead>
+        <tr>
+        <th class="tg-zefg">Año</th>
+        <th class="tg-zefg">PPG</th>
+        <th class="tg-zefg">MPV</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td class="tg-73oq">1990</td>
+        <td class="tg-73oq">30</td>
+        <td class="tg-73oq">si</td>
+        </tr>
+        <tr>
+        <td class="tg-f7v4">1991</td>
+        <td class="tg-f7v4">31</td>
+        <td class="tg-f7v4">no</td>
+        </tr>
+        <tr>
+        <td class="tg-73oq">1992</td>
+        <td class="tg-73oq">32</td>
+        <td class="tg-73oq">si</td>
+        </tr>
+        <tr>
+        <td class="tg-f7v4">1993</td>
+        <td class="tg-f7v4">30</td>
+        <td class="tg-f7v4">si</td>
+        </tr>
+        <tr>
+        <td class="tg-73oq">1994</td>
+        <td class="tg-73oq">19</td>
+        <td class="tg-73oq">si</td>
+        </tr>
+        <tr>
+        <td class="tg-f7v4">1995</td>
+        <td class="tg-f7v4">28</td>
+        <td class="tg-f7v4">no</td>
+        </tr>
+        </tbody>
+        </table>
+
+        <div>
+        <ul>
+        <li>1984 - 1983 chigago bulls</li>
+        <li>1995 - 1998 chicago bulls</li>
+        <li>2001 - 2003 washitong wizards</li>
+        </ul>
+        </div>
+        <br>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">haz click aqui para abrir un Link magico </a>
+        <br>
+        <div>
+
+        <form>
+        <h2>por favor contesta la siguiente encuesta</h2>
+        <label for="email">Email: </label>
+        <input type="text" id="email">
+        <br><br>
+
+        <div>
+        <input type="radio" id="si"  value="si">
+        <label for="si">porfavor enviame mas correos</label><br>
+        <input type="radio" id="no"  value="no">
+        <label for="no">porfavor enviame mas correos</label><br>
+        </div>    
+        <div>
+        <h3>¿como supiste de nosotros?</h3>
+        <input type="checkbox" value="facebook"><label>facebook</label>
+        <input type="checkbox" value="periodico"><label>periodico</label>
+        <input type="checkbox" value="conocido"><label>un conocido</label>
+        </div>
+        <br>
+        <br>
+
+        <button type="submit">Enviar</button>
+
+
+        </form>
+        </div>
+    </body>
+</html>
