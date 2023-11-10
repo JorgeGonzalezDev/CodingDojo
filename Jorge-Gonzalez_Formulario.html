@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mi formulario de registro</title>
+    <meta name="description" content="formulario de registro para bootcamp">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+    <h1>Mi formulario de registro</h1>
+    <br>
+
+    <form action="/action_page.php" method="get">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre">
+        <br>
+        <br>
+        <label for="apellido">apellido:</label>
+        <input type="text" id="apellido">
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="text" id="email">
+        <br>
+        <br>
+        contraseña <input type="text" id="contraseña">
+        <br>
+        <br>
+        confirmar <input type="text" id="confirmar">
+        <br>
+        <br>
+        cumpleaños <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31">
+        <br>
+
+
+        <div>
+            <input type="radio" id="hombre" value="hombre">
+            <label for="hombre">hombre</label><br>
+            <input type="radio" id="mujer" value="mujer">
+            <label for="mujer">mujer</label><br>
+            <input type="radio" id="otro" value="otro">
+            <label for="otro">otro</label><br>
+
+        </div>
+
+        <label>Una breve descripcion de ti </label>
+        <p>
+            <textarea name="desc"></textarea>
+        </p>
+        <br>
+        <br>
+        <label>lenguaje favorito</label>
+        <select name="opcion" id="op">
+            <option value="java">java</option>
+            <option value="option">c#</option>
+            <option value="netcore">net core</option>
+        </select>
+
+        <br>
+        <br>
+
+        <input type="submit">
+
+
+
+    </form>
+
+</body>
+
+</html>
